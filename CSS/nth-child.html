@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nth-child()</title>
+    <style>
+        .box{
+            border: 3px solid #000;
+            text-align: center;
+            
+        }
+        .box div{
+            border: 3px solid orangered;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+        .box div:first-child{
+            background-color: skyblue;
+        }
+        .box div:last-child{
+            background-color: red;
+        }
+        /* .box div:nth-of-type(3){
+            background-color: orange;
+        }
+        .box div:nth-of-type(4){
+            background-color: green;
+        } */
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>안녕</div>
+        <div>&nbsp</div>
+        <div>hello</div>
+        <div>&nbsp</div>
+    </div>
+    </div>
+</body>
+</html>
